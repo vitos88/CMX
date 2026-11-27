@@ -1,0 +1,65 @@
+1.0.0-pl
+==============
+## 🇬🇧 English
+--------------
+First public release.
+
+**Code editor:** CodeMirror 6 for snippets, plugins, chunks, templates, files, resource content without an RTE, the resource/data cache buffer and Template Variables. Syntax highlighting for PHP, HTML, CSS/SCSS/Less, JavaScript, JSON, SQL, XML/SVG, Markdown, Fenom, Twig and MODX tags.
+
+**MODX integration:**
+
+- Semantic MODX tag highlighting and autocomplete for snippets, chunks, TVs, resource fields, placeholders, resources, system settings, lexicon entries, property sets, output filters and snippet/chunk properties.
+- Fenom and Twig completion, including block skeletons, modifiers, snippet parameters, `$_modx` objects and fields.
+- Offline MODX/xPDO API and PHP function completion with signatures.
+- Ctrl/Cmd-click navigation from a MODX tag to the corresponding element in a new browser tab.
+- Hover information for resources, elements, resource fields, output filters and Fenom modifiers.
+
+**Productivity:**
+
+- Search and replace with regular expressions, case sensitivity and whole-word matching.
+- Multiple cursors, occurrence selection and rectangular selection.
+- Command and element palettes, media browser integration, fullscreen mode and Emmet.
+- Automatic indentation for HTML, Fenom and MODX constructs; document or selection reindenting.
+- Standard, Sublime Text and Vim keymaps.
+- Twelve themes, code folding, bracket matching, optional rainbow brackets, indentation guides, a ruler, word wrap and a status bar.
+- Local autosave drafts with a side-by-side comparison before restoring.
+
+**Code quality and history:**
+
+- Browser-side PHP checks plus optional server-side `php -l` validation.
+- CSS typo and brace diagnostics in CSS files and `<style>` blocks.
+- Fenom/MODX template diagnostics and an optional warning before saving code with errors.
+- Revision history for elements and resources with preview, restore, copy, two-version comparison and JSON export.
+- Permission checks for connector actions and rate limiting for expensive endpoints.
+
+## 🇷🇺 Русский
+--------------
+Первый публичный релиз.
+
+**Редактор кода:** CodeMirror 6 для сниппетов, плагинов, чанков, шаблонов, файлов, содержимого ресурсов без RTE, буфера кэша resource/data и Template Variables. Подсветка PHP, HTML, CSS/SCSS/Less, JavaScript, JSON, SQL, XML/SVG, Markdown, Fenom, Twig и MODX-тегов.
+
+**Интеграция с MODX:**
+
+- Семантическая подсветка MODX-тегов и автодополнение сниппетов, чанков, TV, полей ресурса, плейсхолдеров, ресурсов, системных настроек, лексиконов, наборов свойств, фильтров вывода и параметров сниппетов/чанков.
+- Автодополнение Fenom и Twig: каркасы блоков, модификаторы, параметры сниппетов, объекты `$_modx` и поля.
+- Офлайн-подсказки MODX/xPDO API и PHP-функций с сигнатурами.
+- Переход Ctrl/Cmd-кликом из MODX-тега к элементу в новой вкладке браузера.
+- Подсказки при наведении для ресурсов, элементов, полей ресурса, фильтров вывода и модификаторов Fenom.
+
+**Удобство работы:**
+
+- Поиск и замена с регулярными выражениями, учётом регистра и поиском целых слов.
+- Мультикурсоры, выделение совпадений и прямоугольное выделение.
+- Палитры команд и элементов, медиа-браузер, полноэкранный режим и Emmet.
+- Автоматические отступы для HTML, Fenom и MODX-конструкций; форматирование документа или выделения.
+- Раскладки Standard, Sublime Text и Vim.
+- Двенадцать тем, сворачивание кода, парные и радужные скобки, направляющие отступов, линейка, перенос строк и строка состояния.
+- Локальные черновики с построчным сравнением перед восстановлением.
+
+**Качество кода и история:**
+
+- Проверка PHP в браузере и дополнительная серверная проверка через `php -l`.
+- Диагностика опечаток и скобок CSS в файлах и блоках `<style>`.
+- Проверка Fenom/MODX-шаблонов и необязательное предупреждение перед сохранением кода с ошибками.
+- История версий элементов и ресурсов: просмотр, восстановление, копирование, сравнение двух версий и экспорт JSON.
+- Проверка прав для действий коннектора и ограничение частоты ресурсоёмких запросов.
